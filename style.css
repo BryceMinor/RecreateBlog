@@ -3,6 +3,9 @@
 body {
     font-family: 'Lato', sans-serif;
     border: 20px solid #bdc3c7;
+    width: 80%;
+    margin: 20px auto;
+    padding: 0 20px;
 }
 
 h2 {
@@ -32,6 +35,7 @@ p:nth-of-type(7) {
 .date {
     color: #3498d8;
     text-align: right;
+    margin: 0;
 }
 
 p {
@@ -39,4 +43,10 @@ p {
     padding-right: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
+}
+
+h2:hover {
+    text-align: center;
+    /* VMAX and VMIN can be used to size most things with CSS. VMIN will base the sizing off of the smaller of the two (Height and Weight of the viewport.) VMAX will base the sizing off of the larger of the two (Height and Weight of the viewport.) */
+    letter-spacing: 1.7vmax;
 }
